@@ -5,3 +5,8 @@ import { pattern1 } from './data.js'
 import Matrix from './Matrix.js'
 
 ReactDOM.render(<Matrix values={pattern1} />, document.getElementById('root'));
+
+// document.querySelector('#matrix').addEventListener('click', (event)=>{
+//     event.target.style = "backgroundColor: '#FFF'"
+//   })
+
